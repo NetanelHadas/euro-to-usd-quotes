@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Table } from 'antd';
+import columns from './Columns';
+import 'antd/dist/antd.css';
 
 const ResourceList = ({ resource }) => {
     const [resources, setResources] = useState([]);
@@ -15,7 +18,9 @@ const ResourceList = ({ resource }) => {
     }, [resource])
 
     return (
-        <div>{resources.length}</div>
+        <div>
+            <Table rowKey={resources => resources.date} dataSource={resources} columns={columns} />
+        </div>
     );
 }
 
