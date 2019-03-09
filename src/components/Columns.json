@@ -1,0 +1,27 @@
+[
+{
+  "title": "Date",
+  "dataIndex": "date",
+  "key": "date"
+},
+{
+  "title": "Open",
+  "dataIndex": "open",
+  "key": "open"
+}, 
+{
+  "title": "Close",
+  "dataIndex": "close",
+  "key": "close"
+},
+{ 
+  "title": "Low",
+  "dataIndex": "low",
+  "key": "low"
+},
+{
+  "title": "High",
+  "dataIndex": "high",
+  "key": "high"
+}
+]
